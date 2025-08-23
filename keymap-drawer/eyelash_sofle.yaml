@@ -7,7 +7,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - PgUp
+  - $$mdi:arrow-up-bold$$
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,20 +20,20 @@ layers:
   - E
   - R
   - T
-  - PgDn
+  - $$mdi:arrow-down-bold$$
   - Y
   - U
   - I
   - O
   - P
-  - {t: \, s: '|'}
+  - PgUp
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
   - D
   - F
   - G
-  - HOME
+  - $$mdi:arrow-left-bold$$
   - H
   - J
   - K
@@ -46,21 +46,21 @@ layers:
   - C
   - V
   - B
-  - END
+  - $$mdi:arrow-right-bold$$
   - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:backspace-reverse-outline$$
+  - PgDn
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Gui+W
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - layer1
@@ -95,8 +95,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '~'
+  - {t: '`', s: '~'}
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
